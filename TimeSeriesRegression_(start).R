@@ -65,7 +65,7 @@
 
 
 # Check for the presence of trend and season in the time series
-# (use decompose() f.)
+# (use stl() f.)
 
 
 #
