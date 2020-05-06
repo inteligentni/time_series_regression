@@ -11,7 +11,7 @@
 
 
 # Load the data about total monthly expenditures for the same time period
-
+# from the file "data/monthly_eatout_expenditures.RData"
 
 
 # Transform the loaded data into a ts object and print time series data for the first two years:
@@ -36,28 +36,21 @@
 
 # Season. 
 # As an example, we can take a look at the data set with average monthly 
-# temperatures (in degrees Fahrenheit) at Nottingham, 1920–1939:
+# temperatures in Nottingham, 1920–1939
+# As the data is in degrees Fahrenheit, first, transform time series in Celsius
+# (C = 5*(F-32)/9)
 
 
 # Cycle. 
 # An example of annual numbers of lynx trappings in Canada, 1821–1934 
 
 
-####################################
-# Lagged values and autocorrelation
-####################################
-
-# Compute lagged values using the lag() function from the stats package:
+# Season + Cycle 
+# Example: the monthly sales (in millions USD) of new one-family houses in the USA (1973-1995)
 
 
-# This can be better observed when plotted:
-
-
-# Autocorrelation measures the extent of linear relationship between lagged values of a time series.
-# A convenient way to examine autocorrelations is by plotting them:
-
-
-# White noise - time series that shows no autocorrelation
+# White noise - time series that show no trend nor seasonality
+# It is a stationary ts (its properties do not depend on the time the data were observed)
 
 
 
@@ -71,7 +64,8 @@
 # Create and plot a ts object:
 
 
-
+# Check for the presence of trend and season in the time series
+# (use decompose() f.)
 
 
 #
@@ -109,6 +103,8 @@
 
 # Use the test set to make predictions
 
+
+# Print predicted values
 
 
 # Plot the predictions
