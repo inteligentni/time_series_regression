@@ -31,6 +31,9 @@ autoplot(monthly_exp_ts) +
   ggtitle("Total monthly expenditure on eating out in Australia") +
   theme_light()
 
+# Plot sub-series plot w/ monthly values and averages
+ggsubseriesplot(monthly_exp_ts)
+
 # To take a closer look at the monthly pattern, we can take a slice of the time series
 autoplot(window(monthly_exp_ts, start=c(2005,1), end=c(2007,12))) +
   xlab("Month-Year") + ylab("Expenditures in bilion AUD")

@@ -20,6 +20,9 @@
 # Plot the monthly time series:
 
 
+# Plot sub-series plot w/ monthly values and averages
+
+
 # To take a closer look at the monthly pattern, we can take a slice of the time series
 # (e.g. from the beginning of 2005 till the end of 2007)
 
