@@ -20,12 +20,11 @@
 # Plot the monthly time series:
 
 
-# Plot sub-series plot w/ monthly values and averages
-
-
 # To take a closer look at the monthly pattern, we can take a slice of the time series
 # (e.g. from the beginning of 2005 till the end of 2007)
 
+
+# Plot sub-series plot w/ monthly values and averages
 
 
 
@@ -34,11 +33,11 @@
 #########################
 
 # Trend 
-# Another example of a time series with a rising trend:
+# Another example of a time series with a rising trend (auscafe):
 
 
 # Season. 
-# As an example, we can take a look at the data set with average monthly 
+# As an example, we can take a look at the data set (nottem) with average monthly 
 # temperatures in Nottingham, 1920–1939
 # As the data is in degrees Fahrenheit, first, transform time series in Celsius
 # (C = 5*(F-32)/9)
@@ -51,9 +50,6 @@
 # Season + Cycle 
 # Example: the monthly sales (in millions USD) of new one-family houses in the USA (1973-1995)
 
-
-# White noise - time series that show no trend nor seasonality
-# It is a stationary ts (its properties do not depend on the time the data were observed)
 
 
 
