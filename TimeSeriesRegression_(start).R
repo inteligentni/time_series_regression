@@ -37,13 +37,8 @@
 
 
 # Season. 
-<<<<<<< HEAD
-# As an example, we can take a look at the data set with average monthly 
-# temperatures in Nottingham, 1920–1939 (nottem)
-=======
 # As an example, we can take a look at the data set (nottem) with average monthly 
 # temperatures in Nottingham, 1920–1939
->>>>>>> 62e3a071c95239d9dc3b93651e499e77934b8dd8
 # As the data is in degrees Fahrenheit, first, transform time series in Celsius
 # (C = 5*(F-32)/9)
 
