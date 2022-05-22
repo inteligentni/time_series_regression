@@ -34,22 +34,23 @@
 #########################
 
 # Trend 
-# Another example of a time series with a rising trend:
+# Another example of a time series with a rising trend (auscafe):
 
 
 # Season. 
 # As an example, we can take a look at the data set with average monthly 
-# temperatures in Nottingham, 1920–1939
+# temperatures in Nottingham, 1920–1939 (nottem)
 # As the data is in degrees Fahrenheit, first, transform time series in Celsius
 # (C = 5*(F-32)/9)
 
 
 # Cycle. 
-# An example of annual numbers of lynx trappings in Canada, 1821–1934 
+# An example of annual numbers of lynx trappings in Canada, 1821–1934 (lynx)
 
 
 # Season + Cycle 
-# Example: the monthly sales (in millions USD) of new one-family houses in the USA (1973-1995)
+# Example: the monthly sales (in millions USD) of new one-family houses in the USA in the
+# 1973-1995 time period (hsales)
 
 
 # White noise - time series that show no trend nor seasonality
@@ -87,8 +88,6 @@
 
 # Create a regression model using the tslm() function w/ trend and season as predictors
 
-
-# Examine the elements of the tslm model:
 
 
 # Plot the fitted against the actual time series:
@@ -147,7 +146,7 @@
 # To build this model, we need a richer data set (uschange)
 
 
-# Plot time series (separatelly for each variable)
+# Plot time series (separately for each variable)
 
 
 #
@@ -193,7 +192,7 @@
 # Make predictions on the test set:
 
 
-# As baseline models, create a seasonal naive model and a drift model
+# As baseline models, create a seasonal naive model and a drift model (rwf() f.)
 
 
 
